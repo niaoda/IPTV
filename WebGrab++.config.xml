@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <!--<license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password" />-->
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="001" xmltv_id="01 香港開電視 *">01 香港開電視 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="002" xmltv_id="02 香港國際財經台 *">02 香港國際財經台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="108" xmltv_id="108 財經資訊台 *">108 財經資訊台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="109" xmltv_id="109 新聞台 *">109 新聞台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="110" xmltv_id="110 直播新聞台 *">110 直播新聞台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="201" xmltv_id="201 有線電影台 *">201 有線電影台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="301" xmltv_id="301 綜合娛樂台 *">301 綜合娛樂台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="601" xmltv_id="601 高清體育台 *">601 高清體育台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="602" xmltv_id="602 Sports Plus 1 *">602 Sports Plus 1 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="603" xmltv_id="603 高清603台 *">603 高清603台 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="604" xmltv_id="604 Sports Plus 2 *">604 Sports Plus 2 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="605" xmltv_id="605 Sports Plus 3 *">605 Sports Plus 3 *</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="618" xmltv_id="618 有線18台">618 有線18台</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="661" xmltv_id="661 有線體育台">661 有線體育台</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="662" xmltv_id="662 Sports Plus 1">662 Sports Plus 1</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="664" xmltv_id="664 Sports Plus 2">664 Sports Plus 2</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="665" xmltv_id="665 Sports Plus 3">665 Sports Plus 3</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="668" xmltv_id="668 賽馬1台">668 賽馬1台</channel>
+	<channel update="i" site="epg.i-cable.com.chinese" site_id="669" xmltv_id="669 賽馬2台">669 賽馬2台</channel>
+	
+	<channel update="i" site="merge-xmltv" site_id="" xmltv_id="dummy">dummy</channel>
+</settings>
