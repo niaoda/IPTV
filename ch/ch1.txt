@@ -1,0 +1,5 @@
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+BNC | MY好玩 |  |
+https://www.youtube.com/channel/UCRzAqsmluZYk-r59pQYSa3Q/live

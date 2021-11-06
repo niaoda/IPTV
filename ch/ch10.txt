@@ -1,0 +1,5 @@
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+BNC | cctv |  |
+https://www.youtube.com/channel/UC4K_LI-Tn3-LshNgG0-YypQ/live

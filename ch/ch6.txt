@@ -1,0 +1,5 @@
+~~ DO NOT EDIT THE FIRST 2 LINES
+~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+
+BNC | Bamboo Water Fountain Healing 24/7 |  |
+https://www.youtube.com/channel/UCwfsV3Arx9rO7hWY3wXsasA/live
