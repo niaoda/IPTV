@@ -1,0 +1,110 @@
+﻿[        ] 
+[        ]            WebGrab+Plus/w MDB & REX Postprocess -- version  V3.2.0.0            
+[        ] 
+[        ]                                 Jan van Straaten                                
+[        ]                              Francis De Paemeleere                              
+[        ] 
+[        ]             thanks to Paul Weterings and all the contributing users             
+[        ] --------------------------------------------------------------------------------
+[        ] 
+[        ] Job started at 08/06/2022 16:17:44
+[  Debug ] 
+[  Debug ] Running  on: Unix 5.4.0.1080
+[  Debug ] Environment: 4.0.30319.42000
+[  Debug ] Mono version: 6.12.0.179 (tarball Tue May 17 21:32:33 UTC 2022)
+[  Debug ] 
+[  Debug ] Loading timezone data
+[  Debug ] Embedded timezones source: timezone.timezonesdata.txt
+[  Debug ] Reading config file: /home/runner/work/IPTV/IPTV/.wg++/./WebGrab++.config.xml
+[  Info  ] Checking License ..
+[  Info  ] For License request/update data, see WGLicense.log.txt
+[Warning ] timezone=UTC+08:00 mapped with timezone_id "Asia/Shanghai"
+[  Debug ] 
+[  Info  ] found: /home/runner/work/IPTV/IPTV/.wg++/./siteini.pack/Hong Kong/epg.i-cable.com.chinese.ini -- Revision 00
+[Warning ] timezone=UTC+00:00 mapped with timezone_id "Atlantic/Canary"
+[  Debug ] 
+[  Info  ] found: /home/runner/work/IPTV/IPTV/.wg++/./siteini.pack/Misc/merge-xmltv.ini -- Revision 04
+[  Info  ] input file /home/runner/work/IPTV/IPTV/.wg++/guide.xml not found   ... created a new one ... 
+[  Info  ] 
+[  Info  ] 
+[  Info  ] 
+[  Info  ]       i=index  .=same  c=change  g=gab  r=replace  n=new
+[  Info  ] 
+[  Info  ] 
+[  Info  ] Group (0) :
+[  Info  ] update requested for - 20 - out of - 20 - channels for 1 day(s)
+[  Debug ] 
+[  Info  ] (   1/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=01 香港開電視 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   2/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=02 香港國際財經台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   3/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=108 財經資訊台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   4/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=109 新聞台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   5/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=110 直播新聞台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   6/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=201 有線電影台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   7/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=301 綜合娛樂台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   8/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=601 高清體育台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (   9/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=602 Sports Plus 1 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  10/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=603 高清603台 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  11/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=604 Sports Plus 2 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  12/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=605 Sports Plus 3 *) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  13/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=618 有線18台) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  14/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=661 有線體育台) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  15/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=662 Sports Plus 1) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  16/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=664 Sports Plus 2) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  17/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=665 Sports Plus 3) -- mode Force
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  18/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=668 賽馬1台) -- mode Force
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  19/20  ) EPG.I-CABLE.COM.CHINESE -- chan. (xmltv_id=669 賽馬2台) -- mode Force
+[  Debug ]    skipped  : last show, no next startime to use as stop
+[  Info  ] 
+[  Debug ] 
+[  Info  ] (  20/20  ) MERGE-XMLTV -- chan. (xmltv_id=dummy) -- mode Force
+[Error   ] file file:// doesn't exist
+[Error   ] Unable to update channel dummy
+[Critical] Generic syntax exception:
+[Critical]    message: 
+[Error   ] no index page data received from dummy
+[Error   ] unable to update channel, try again later
+[  Info  ] Existing guide data restored!
+[  Debug ] 
+[  Debug ] 293 shows in 20 channels
+[  Debug ] 0 updated shows
+[  Debug ] 293 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 08/06/2022 16:19:17 done in 1m 33s
